@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Simple Map</title>
+    <title>Practice</title>
 
     <meta name="viewport" content="initial-scale=1.0">
     <meta charset="utf-8">
@@ -11,13 +11,13 @@
       integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./stylecopy.css" />
     
   </head>
   <body>
      
     <div id="controls" class="nicebox">
-        <div>
+        <!-- <div>
           <select id="census-variable">
             <option
               value="https://storage.googleapis.com/mapsdevsite/json/DP02_0066PE"
@@ -46,13 +46,13 @@
             </option>
             <option id="testoption">Test Option</option>
           </select>
-        </div>
-        <div id="legend">
+        </div> -->
+        <!-- <div id="legend">
           <div id="census-min">min</div>
           <div class="color-key"><span id="data-caret">&#x25c6;</span></div>
           <div id="census-max">max</div>
-        </div>
-      </div>
+        </div> -->
+      </div> 
       <div id="data-box" class="nicebox">
         <label id="data-label" for="data-value"></label>
         <span id="data-value"></span>
@@ -65,12 +65,11 @@
        and consistent behavior across browsers, consider loading using Promises
        with https://www.npmjs.com/package/@googlemaps/js-api-loader.
       -->
-      <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-        defer
-      ></script>
-      <script src="https://d3js.org/d3.v7.min.js"></script>
-      <script src="./javascript.js"></script>
+      <script async
+        src="https://maps.googleapis.com/maps/api/js?v=beta&key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&libraries=geometry,drawing&callback=initMap&v=weekly"
+          ></script>
+            <script src="https://d3js.org/d3.v7.min.js"></script>
+      <script src="./javascriptcopy.js"></script>
 
     </body>
 </html>
