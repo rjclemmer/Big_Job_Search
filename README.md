@@ -22,7 +22,7 @@ What was provided via Jooble was quite different than the other APIs we had seen
 
 The Choropeth maps, via both google and D3 proved to too difficult to use in conjunction with the information we were able to get from Jooble. With this we pivoted and used a api-ninjas.com api for airport data. While this did satisfy our need for two APIs the api-ninjas.com APIs had no meaningful documentation, again leading to less than ideal functionality and usabilty.
 
-## Sad Mad, Glad
+## Sad, Mad, Glad
 
 Sad - the quality of the api data we were able to obtain even after significant time spent searching. 
 
@@ -33,7 +33,7 @@ We worked well together providing support and feedback and all demonstrated a wi
 Using the realtime collaboration tool was certainly very helpful in avoiding merge conficts and being able to share code in real time. 
 
 ## Project Description:
-Using the Linked In API as a filter for javascript and developer jobs that can be displayed on the interactive Google map API
+Originally going to use the Linked In API as a filter for javascript and developer jobs that can be displayed on the interactive Google map API, but instead using the jooble API and api-ninjas API as a substitute.
 
 ## User Story:
 AS a web developer looking for a job
@@ -42,15 +42,9 @@ I want to determine what different states in the US are mostly looking for in re
 
 So that I can identify where and what kind of job suits my set of skills
 
-## Wireframe or sketch of the idea:
-
-
 ## APIs to be used:
 https://jooble.org/api/about?ref=apilist.fun
 https://api-ninjas.com/api/airports
-
-## Rough breakdown of tasks:
-
 
 
 ## Description
@@ -61,18 +55,24 @@ Provide a short description explaining the what, why, and how of your project. U
 - To give web developers a chance to find jobs aross the country tailored to their skillset, such as ourselves upon completion of the bootcamp.
 
 - Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- Using the Linked In API as a filter for javascript and developer jobs that can be displayed on the interactive Google map API.
+- To properly filter jobs fitting those with web development skills.
 
 - What problem does it solve?
 - Makes job hunting a lot easier and personal for web developers.
 
 - What did you learn?
-- Everything
+- A lot about each other and the struggles of finding compatible API's and how a deadline can add stress to that predicament.
 
-## Table of Contents (Optional)
+## Table of Contents
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
+- [origin idea!](#origin-idea)
+- [Project Title](#project-title)
+- [Team Collaboration Insights](#team-collaboration-insights)
+- [Sad, Mad, Glad](#sad-mad-glad)
+- [Project Description](#project-description)
+- [User Story](#user-story)
+- [APIs to be used](#apis-to-be-used)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -123,9 +123,4 @@ SOFTWARE.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Features
-
-If your project has a lot of features, list them here.
 
