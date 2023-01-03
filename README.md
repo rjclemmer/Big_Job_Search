@@ -1,7 +1,4 @@
 
-## origin idea! 
-https://www.cyberseek.org/heatmap.html
-
 ## Project Title:
 Big_Job_Search
 
