@@ -86,6 +86,8 @@ N/A
 
 Provide instructions and examples for use. Include screenshots as needed.
 
+Select a Keyword to base your job search on which becomes a selectable drop down menu. Then select the state in which you desire your results from also in the form of a drop down menu and there is the magic in listed format.
+
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](assets/images/screenshot.png)
