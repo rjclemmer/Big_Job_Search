@@ -37,7 +37,11 @@ $(document).ready(function(){
     //document.getElementById('jobList').empty();
    listEl.textContent = " ";
     countEl.textContent = " "
+
+localStorage.setItem('Keyword', keyword);
+localStorage.setItem('State', state);
     getAPI(keyword, state);
+
  };
  
  function getAPI(a,b) {
@@ -62,9 +66,9 @@ $(document).ready(function(){
           var repoList = JSON.parse(http.responseText);
           repoTotal = repoList.totalCount;
           
-          console.log(repoList);
+         // console.log(repoList);
                  
-          console.log(repoTotal);
+          //console.log(repoTotal);
           countEl.append("total job count is " + repoTotal);
          
          
